@@ -6,10 +6,12 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-<%=link_to "Home", root_path %></p>
-<%=link_to "About", about_path %></p>
-  <body>
+ </head>
+ <body>
+
+ 	<%= render 'layouts/header' %>
+	<div class="container">
     <%= yield %>
-  </body>
+	</div>
+</body>
 </html>
