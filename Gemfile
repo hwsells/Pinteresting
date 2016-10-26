@@ -7,12 +7,14 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
+gem 'jquery-turbolinks'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.2.0'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '~> 2.3.0'
+gem 'masonry-rails'
 gem 'capistrano-rails', group: :development
 
 group :development, :test do
