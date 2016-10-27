@@ -14,6 +14,8 @@ gem 'devise', '~> 4.2.0'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '~> 2.3.0'
 gem 'masonry-rails', '~> 0.2.0'
+gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate-bootstrap'
 gem 'capistrano-rails', group: :development
 
 group :development, :test do
